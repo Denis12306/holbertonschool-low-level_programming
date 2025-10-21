@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-	int n,der,nbr;
+	int n,der;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	der = nbr % 10
+	der = n % 10
 	if (der > 5)
 	{
 		printf("der of %d and is greater than 5\n", der);
