@@ -7,11 +7,14 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
+{
 	char alphabet = "a-z";
 {
 	while(alphabet <=z);
 	putchar (alphabet);
 
+	alphabet++;
+	putchar ("\n")
+		}
 	return (0);
 }
