@@ -7,7 +7,8 @@
 */
 int main(void)
 {
-	int n,der;
+	int n;
+	int der;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
