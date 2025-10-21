@@ -1,29 +1,33 @@
 #include <stdlib.h>
 #include <time.h>
-/*
-* main -n the last digit
-*
-* Return: Always 0 (Success)
-*/
+#include <stdio.h>
+/**
+ * main - n is greater positive, negative or zero
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
-	int der;
+	int lastD;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	der = n % 10;
-	if (der > 5)
+
+	lastD = n % 10;
+
+	if (lastD > 5)
 	{
-		printf("der of %d and is greater than 5\n", n, der);
+		printf("Last digit of %d is %d and is greater than 5\n", n, lastD);
 	}
-	else if (der = 0)
+	else if (lastD < 6 && lastD != 0)
 	{
-		printf("der of %d der is 0\n", n, der);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastD);
 	}
-	else (der < 6)(der ! 0)
+	else
 	{
-		printf("der of %d is %d and is less than than 6 ans not 0\n", n, der);
+		printf("Last digit of %d is %d and is 0\n", n, lastD);
 	}
+
 	return (0);
 }
