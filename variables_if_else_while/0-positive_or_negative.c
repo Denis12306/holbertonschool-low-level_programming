@@ -9,7 +9,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if ( n < 0 ; n = 0 ; n >0 );
+	for (n < 0 ; n = 0 ; n > 0);
 		printf ("n");
 		
 	return (0);
