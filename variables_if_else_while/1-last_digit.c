@@ -7,14 +7,14 @@
 */
 int main(void)
 {
-	int n, der;
+	int n,der,nbr;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	der = nbr % 10
 	if (n > 5)
 	{
-		printf("%d and is greater than 5\n, der");
+		printf("%d and is greater than 5\n", der);
 	}
 	else if (n = 0)
 	{
