@@ -10,17 +10,20 @@ int main(void)
 {
 	int main(void);
 {
-	char number = '0';
-	char alphabet = 'A';
+	char number;
+	char alphabet;
 
-	for (number <= '9'; alphabet <='F')
+	for (number = '9'; number >= '0')
 	{
 		putchar(number);
+
+        	number++;
+	}
+	for (alphabet <= 'F'; alphabet = 'A')
+
 		putchar(alphabet);
 
-		number++;
 		alphabet++;
-	}
 }
 
 putchar('\n');
