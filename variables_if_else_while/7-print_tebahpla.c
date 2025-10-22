@@ -7,10 +7,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+int alphabet
 {
-	int alphabet = 'z';
-
-	for (alphabet >= 'a')
+	for (alphabet <= 'z')
 	{
 		putchar(alphabet);
 
