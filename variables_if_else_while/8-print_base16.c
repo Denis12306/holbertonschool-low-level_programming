@@ -1,12 +1,10 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - Prints the alphabet in lowercase, followed by a new line.
- *
- * Return: Always 0 (Success)
- */
-
+*main - A program that prints all the numbers of base 16.
+*
+*Return: Always 0 (Success)
+*/
 int main(void)
 {
     char character;
@@ -20,3 +18,4 @@ int main(void)
     }
     putchar('\n');
     return (0);
+}
