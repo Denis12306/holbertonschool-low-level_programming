@@ -7,18 +7,13 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-	#include <stdio.h>
-
-int main(void)
 {
     char alphabet = 'a';
 
-    while (alphabet <= 'z')
+    while(alphabet <= 'z')
     {
-        putchar(alphabet);
+	    putchar("%c", a);
         alphabet++;
     }
-
-    putchar('\n');
     return (0);
 }
