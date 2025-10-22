@@ -8,8 +8,6 @@
  */
 int main(void)
 {
-	int main(void);
-{
 	int alphabet = 'z';
 
 	for (alphabet >= 'a')
