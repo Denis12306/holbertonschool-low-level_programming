@@ -16,7 +16,7 @@ int main(void)
 
 		alphabet++;
 	}
-	if (alphabet =="q" || alphabet =="e")
+	if (alphabet ="q" | alphabet ="e")
 	{
 		continue;
 }
