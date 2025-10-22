@@ -13,13 +13,13 @@ int main(void)
 	char number;
 	char alphabet;
 
-	for (number = '9'; number >= '0')
+	for (number = '9'; number >= '0');
 	{
 		putchar(number);
 
         	number++;
 	}
-	for (alphabet <= 'F'; alphabet = 'A')
+	for (alphabet <= 'F'; alphabet = 'A');
 
 		putchar(alphabet);
 
