@@ -12,13 +12,12 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
+		if (alphabet != "q" && alphabet != "e")
+			
 		putchar(alphabet);
 
 		alphabet++;
 	}
-	if (alphabet ="q" | alphabet ="e")
-	{
-		continue;
 }
 
 putchar('\n');
