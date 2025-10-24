@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * main - Write a function that computes the absolute value of an integer.
 *
 * Return: Always 0.
