@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * main - Returns 1 if c is a letter, lowercase or uppercase.
 * Return 0 otherwise.
 * Return: Always 0.
