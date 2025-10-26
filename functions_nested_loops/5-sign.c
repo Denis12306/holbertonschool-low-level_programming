@@ -1,9 +1,11 @@
 #include "main.h"
-/*
- * print_sign - prints the sign of a number.
- * @n : the number to verify
+/**
+ * print_sign - Prints the sign of a number.
+ * @n: The number to check.
  *
- * Return: 0,1 or -1.
+ * Return: 1 and prints '+' if n is greater than zero,
+ * 0 and prints '0' if n is zero,
+ * -1 and prints '-' if n is less than zero.
  */
 int print_sign(int n)
 {
