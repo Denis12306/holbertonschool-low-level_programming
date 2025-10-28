@@ -1,11 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
-* print_line - Print a line in the terminal
-* If n is 0 or less, the function should only print \n
-* If n is 1 or more, print _
-* Return: void
-*/
+ * print_line - Draws a straight line using `_`.
+ * @n: Number of times to print `_` (0 or less prints a newline).
+ * Return: void
+ */
 void print_line(int n)
 {
 	if (n <= 0)
