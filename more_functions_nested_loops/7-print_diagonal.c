@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
  * print_diagonal - Draw a diagonal line
- * Where n is the number of times the character \ should be printed
- * Return: void
+ * @n : is the number of times the character has to be print followed by \.
+ * i and j are two integers
+ * Return : void
  */
 void print_diagonal(int n)
 {
