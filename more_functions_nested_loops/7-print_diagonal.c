@@ -1,0 +1,30 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * print_diagonal - Draw a diagonal line
+ * Where n is the number of times the character \ should be printed
+ * Return: void
+ */
+void print_diagonal(int n)
+{
+	if (n <= 0)
+	{
+		_putchar('\n');
+	} else
+	{
+		int i;
+		int j;
+
+		for (i = 1; i <= n; i++)
+		{
+			_putchar(' ');
+
+			for (j = 1; j < i; j++)
+
+				_putchar('\\');
+		}
+	}
+		_putchar('\n');
+	}
+
+}
