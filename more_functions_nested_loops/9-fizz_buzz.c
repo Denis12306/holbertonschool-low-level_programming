@@ -29,8 +29,11 @@ int main(void)
 	{
 		printf("%d",n);
 	}
+		if (n < 100)
+		{
 
 	putchar(' ');
+		}
 	}
 		putchar('\n');
 	return (0);
