@@ -13,15 +13,15 @@
 
     while (h)
     {
-        printf("[%u]", h->len);
+        printf("[%u] ", h->len);
 
-    if (h -> str == NULL)
+    if (h->str == NULL)
         printf("(nill)\n");
     
         else
-        printf("%s\n", h -> str);
+        printf("%s\n" , h->str);
 
-        h = h -> next;
+        h = h->next;
         nodes++;
     }
     return (nodes);
