@@ -16,6 +16,7 @@
     {
         printf("%d\n", h);
         h++;
+        n++;
         new->next = head;
     }
     if (str == NULL)
