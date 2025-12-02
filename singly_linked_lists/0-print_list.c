@@ -4,6 +4,7 @@
 #include "lists.h"
 /**
  * print_list - a function that print all the element of a list_t list
+ * @h is the number of node
  * If str is NULL, print [0] (nil)
  * Return: the number of nodes
  */
