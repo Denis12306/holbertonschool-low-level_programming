@@ -13,7 +13,7 @@
 
     while (h)
     {
-        printf("%u]", h->len);
+        printf("[%u]", h->len);
 
     if (h -> str == NULL)
         printf("(nill)\n");
