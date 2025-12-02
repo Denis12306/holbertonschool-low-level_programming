@@ -7,14 +7,12 @@
  */
 size_t list_len(const list_t *h)
 {
-    int n = 0;
+    size_t count = 0;
 
-    while (h)
+    while (h =! NULL)
 {
-    printf("%d\n", h->len);
-
-    else
-    return (-1);
+    count++;
+    h = h->next;
 }
 return (n);
 }
