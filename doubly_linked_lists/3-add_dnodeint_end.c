@@ -7,29 +7,35 @@
  * Return: pointer to new element, NULL on failure.
  */
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-    dlistint_t *new_node;
+	dlistint_t *new_node = NULL, *temp = NULL;
 
-    if (head == NULL || tail == NULL)
-        return (NULL);
+	new_node = malloc(sizeof(dlistint_t));
+	if (!new_node)
+	{
+		free(new_node);
+		return (NULL);
+	}
+	new_node->next = NULL;
+	new_node->prev = NULL;
+	new_node->n = n;
 
-    new_node = malloc(sizeof(dlistint_t));
-    if (new_node == NULL)
-        return (NULL);
+	if (!head || !(*head))
+	{
+		*head = new_node;
+		return (new_node);
+	}
+	else
+	{
+		temp = *head;
+		while (temp->next)
+			temp = temp->next;
 
-    new_node->n = n;
-    new_node->next = NULL;
-    new_node->prev = *tail;
+		new_node->prev = temp;
+		temp->next = new_node;
 
-    if (*head == NULL)
-    {
-        *head = new_node;
-        *tail = new_node;
-        return (new_node);
-    }
-
-    (*tail)->next = new_node;
-    *tail = new_node;
-
-    return (new_node);
+		return (new_node);
+	}
+	return (NULL);
 }
