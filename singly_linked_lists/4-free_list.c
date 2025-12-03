@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <string.h>
 /**
  * free_list - A function that frees all elements in a linked list
  * @head: pointer to head element of list
